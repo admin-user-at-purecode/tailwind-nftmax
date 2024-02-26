@@ -4,7 +4,7 @@ import logo3 from "../../assets/images/logo-3.svg";
 import DarkModeContext from "../Contexts/DarkModeContext";
 import Icons from "../helpers/Icons";
 
-export default function MobileSidebar({ sidebar, action, logoutModalHandler }) {
+export default function MobileSidebar({ sidebar, action }) {
   const darkMode = useContext(DarkModeContext);
   return (
     <div className="w-full h-full">
@@ -356,7 +356,6 @@ export default function MobileSidebar({ sidebar, action, logoutModalHandler }) {
       {sidebar ? (
           <div className="w-full pb-5">
             <button
-                onClick={logoutModalHandler}
                 type="button"
                 className="signout-btn flex items-center space-x-1  p-2.5 w-2/3 h-[52px] bg-purple transition duration-300 ease-in-out hover:bg-gray-900 rounded-full"
             >
@@ -390,7 +389,6 @@ export default function MobileSidebar({ sidebar, action, logoutModalHandler }) {
           </div>
       ) : (
         <button
-          onClick={logoutModalHandler}
           type="button"
           className="signout-btn w-full flex items-center justify-center"
         >
