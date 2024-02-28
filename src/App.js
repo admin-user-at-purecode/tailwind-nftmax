@@ -2,15 +2,16 @@
 // import Routers from "./Routers";
 import Default from "./components/common/Default";
 import Layout from "./components/common/layout";
+import ActiveBids from "./pages/ActiveBids";
 
 
 function App() {
   return (
       <Default>
           <>
-          <h1>hasd</h1>
-              <Layout />
-
+            <Layout >
+              <ActiveBids />
+            </Layout>
           </>
       </Default>
   );
