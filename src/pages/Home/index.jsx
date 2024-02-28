@@ -6,13 +6,11 @@ import SellHistoryMarketVisitorAnalytic from "./SellHistoryMarketVisitorAnalytic
 import TopSellerTopBuyerSliderSection from "./TopSellerTopBuyerSliderSection";
 import TrendingSection from "./TrendingSection";
 import UpdateTable from "./UpdateTable";
-import Layout from "../../components/common/layout";
 
 export default function Home() {
   const trending = datas.datas;
 
   return (
-    <Layout>
       <div className="home-page-wrapper">
         <Hero className="mb-10" />
         <CreateNft />
@@ -21,6 +19,5 @@ export default function Home() {
         <TopSellerTopBuyerSliderSection className="mb-10" />
         <UpdateTable className="mb-10" />
       </div>
-    </Layout>
   );
 }

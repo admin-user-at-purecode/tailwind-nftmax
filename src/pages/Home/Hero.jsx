@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 import heroBg from "../../assets/images/hero-bg.svg";
 import heroUser from "../../assets/images/hero-user.png";
@@ -102,13 +101,13 @@ export default function Hero({ className }) {
               <path d="M7.23431 0C8.44147 0.0182463 9.6223 0.345711 10.6576 0.949325C11.6928 1.55294 12.5458 2.41133 13.1305 3.4378C13.7151 2.41133 14.5681 1.55294 15.6034 0.949325C16.6386 0.345711 17.8195 0.0182463 19.0266 0C20.951 0.0812475 22.764 0.899302 24.0697 2.27544C25.3753 3.65158 26.0674 5.47395 25.9948 7.3444C25.9948 14.4023 14.2497 22.5541 13.7501 22.8999L13.1305 23.326L12.5108 22.8999C12.0113 22.5562 0.266127 14.4023 0.266127 7.3444C0.193496 5.47395 0.885607 3.65158 2.19126 2.27544C3.4969 0.899302 5.30996 0.0812475 7.23431 0Z" />
             </svg>
           </button>
-          <Link
+          <a
             to="/active-bids"
             className=" btn-shine  w-[116px] h-[46px] text-white rounded-full text-base bg-pink flex justify-center items-center"
           >
             Place a Bid
-          </Link>
-          <Link
+          </a>
+          <a
             to="/market-place"
             className="text-white text-base sm:block hidden"
           >
@@ -116,7 +115,7 @@ export default function Hero({ className }) {
               {" "}
               View Art Work
             </span>
-          </Link>
+          </a>
         </div>
       </div>
       <div className="hero-slider relative 2xl:w-[600px] xl:w-[500px] lg:w-[420px] w-full mb-2 lg:mb-0 ">

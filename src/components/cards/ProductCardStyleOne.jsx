@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import { toast } from "react-toastify";
 import localImgLoad from "../../lib/localImgLoad";
 import CountDown from "../helpers/CountDown";
@@ -157,20 +156,20 @@ export default function ProductCardStyleOne({ datas, hidden = false }) {
           </div>
           <p className="text-sm text-thin-light-gray dark:text-white">
             Owned by
-            <Link to="/user-profile" className="text-purple ml-1">
+            <a to="/user-profile" className="text-purple ml-1">
               {datas.username}
-            </Link>
+            </a>
           </p>
         </div>
         {/* details */}
         <div className="details">
           {/* product title */}
-          <Link
+          <a
             to="/active-bids"
             className="text-xl font-bold text-dark-gray dark:text-white mb-2 capitalize line-clamp-1"
           >
             {datas.title}
-          </Link>
+          </a>
           {/* countdown */}
           <div className="w-full h-[54px] flex justify-evenly items-center p-2 rounded-lg border border-[#E3E4FE] dark:border-[#a7a9b533] ">
             <div className="flex flex-col justify-between">
@@ -194,20 +193,20 @@ export default function ProductCardStyleOne({ datas, hidden = false }) {
         </div>
       </div>
       <div className="card-buttons flex items-center space-x-2">
-        <Link
+        <a
           to="/active-bids"
           className="btn-shine w-[98px] h-[33px] text-white rounded-full text-sm bg-pink flex justify-center items-center"
         >
           Place a Bid
-        </Link>
-        <Link
+        </a>
+        <a
           to="/market-place"
           className="text-dark-gray dark:text-white text-sm"
         >
           <span className=" border-b dark:border-[#5356fb29]  border-dark-gray ">
             View Art Work
           </span>
-        </Link>
+        </a>
       </div>
     </div>
   );

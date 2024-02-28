@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 export default function CreateNft({ className }) {
   return (
@@ -18,17 +17,17 @@ export default function CreateNft({ className }) {
       </div>
       <div className="flex-1 flex lg:justify-end">
         <div className="flex items-center space-x-5">
-          <Link
+          <a
             to="/upload-product"
             className="w-40 h-11 flex justify-center items-center btn-gradient text-base rounded-full text-white"
           >
             Upload Products
-          </Link>
-          <Link to="/market-place" className="text-dark-gray dark:text-white text-base">
+          </a>
+          <a to="/market-place" className="text-dark-gray dark:text-white text-base">
             <span className=" border-b dark:border-[#5356fb29]  border-dark-gray font-medium">
               View Art Work
             </span>
-          </Link>
+          </a>
         </div>
       </div>
     </div>
