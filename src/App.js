@@ -1,18 +1,8 @@
-// import Toaster from "./components/Helpers/Toaster";
-// import Routers from "./Routers";
-import Default from "./components/common/Default";
-import Layout from "./components/common/layout";
-
+import Login from "./pages/Login/Login";
 
 function App() {
   return (
-      <Default>
-          <>
-          <h1>hasd</h1>
-              <Layout />
-
-          </>
-      </Default>
+            <Login />
   );
 }
 
