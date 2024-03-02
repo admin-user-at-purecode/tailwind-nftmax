@@ -8,9 +8,7 @@ function App() {
   return (
       <Default>
           <>
-          <h1>hasd</h1>
               <Layout />
-
           </>
       </Default>
   );

@@ -1,0 +1,61 @@
+{
+    "theme_augmentations": {
+        "color": "red",
+        "font": "Arial",
+        "size": "12px",
+        "background": "white",
+        "border": "1px solid black",
+        "radius": "5px",
+        "shadow": "2px 2px 2px 2px #888888"
+    },  
+    "component_names":
+    [
+        "Header",
+        "Sidebar",
+        "RightSideBar"
+    ],
+    "component_counts":   
+    {
+        "Header" : {
+            "count": 1,
+            "location": "Top of the page",
+            "description": "Searchbar, Darkmode, Wallet, Noticification and profile"
+        },               
+        "Sidebar" : {
+            "count": 1,
+            "location": "left of the page",
+            "description": "Title and List items in the conatiner"
+        },        
+        "RightSideBar": {
+            "count": 1,
+            "location": "right of the page",
+            "description": "charts, top-creator and top-platform",
+            "children": {
+                "chart-one": {
+                  "count": 1,
+                  "location": "top of the RightSideBar",
+                  "description": "it is doghnut chart showing stattistics"
+                },
+                "chart-two": {
+                    "count": 1,
+                    "location": "below chart-one of the RightSideBar",
+                    "description": "Graphchart to show different rates"
+                },
+                "top-creator": {
+                    "count": 1,
+                    "location": "below chart-two of the Rightsidebar",
+                    "description": "list of all top users"
+                },
+                "top-platform": {
+                    "count": 1,
+                    "location": "bottom of the RightSideBar",
+                    "description": "list of all top platforms"
+                }
+            }
+        }
+    },
+    "functionality":
+    {
+        "sidebar_toogle": "a feature that allows the sidebar to be hide"
+    }
+}

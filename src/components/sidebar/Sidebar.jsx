@@ -34,7 +34,7 @@ export default function Sidebar({ sidebar, action }) {
             <img src={logo3} alt="nft" />
           )}
         </div>
-
+        
         <span onClick={action}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
