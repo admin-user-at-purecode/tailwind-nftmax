@@ -3,8 +3,6 @@ import { toast } from "react-toastify";
 import heroBg from "../../assets/images/hero-bg.svg";
 import heroUser from "../../assets/images/hero-user.png";
 import slider1 from "../../assets/images/slider-1.jpg";
-import slider2 from "../../assets/images/slider-2.jpg";
-import slider3 from "../../assets/images/slider-3.jpg";
 import CountDown from "../../components/helpers/CountDown";
 import SliderCom from "../../components/helpers/SliderCom";
 
@@ -125,10 +123,10 @@ export default function Hero({ className }) {
               <img src={slider1} alt="slider" className="w-full h-full" />
             </div>
             <div className="item w-full h-full bg-white dark:bg-dark-white   rounded-2xl overflow-hidden">
-              <img src={slider2} alt="slider" className="w-full h-full" />
+              <img src={slider1} alt="slider" className="w-full h-full" />
             </div>
             <div className="item w-full h-full bg-white dark:bg-dark-white   rounded-2xl overflow-hidden">
-              <img src={slider3} alt="slider" className="w-full h-full" />
+              <img src={slider1} alt="slider" className="w-full h-full" />
             </div>
           </SliderCom>
         </div>

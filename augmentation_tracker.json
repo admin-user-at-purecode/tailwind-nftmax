@@ -1,0 +1,134 @@
+{
+    "theme_augmentations": {
+        "color": "red",
+        "font": "Arial",
+        "size": "12px",
+        "background": "white",
+        "border": "1px solid black",
+        "radius": "5px",
+        "shadow": "2px 2px 2px 2px #888888"
+    },  
+    "component_names":
+    [
+        "Header",
+        "Sidebar",
+        "RightSideBar",
+        "Hero",
+        "CreateNft",
+        "TrendingSection",
+        "SellHistoryWidget",
+        "market-visitor",
+        "top-seller",
+        "top-buyer",
+        "UpdateTable",
+        "ProductCardStyleOne",
+        "seller-item",
+        "buyer-item"
+    ],
+    "component_counts":   
+    {
+        "Header" : {
+            "count": 1,
+            "location": "Top of the page",
+            "description": "Searchbar, Darkmode, Wallet, Noticification and profile"
+        },               
+        "Sidebar" : {
+            "count": 1,
+            "location": "left of the page",
+            "description": "Title and List items in the conatiner"
+        },        
+        "RightSideBar": {
+            "count": 1,
+            "location": "right of the page",
+            "description": "charts, top-creator and top-platform",
+            "children": {
+                "chart-one": {
+                  "count": 1,
+                  "location": "top of the RightSideBar",
+                  "description": "it is doghnut chart showing stattistics"
+                },
+                "chart-two": {
+                    "count": 1,
+                    "location": "below chart-one of the RightSideBar",
+                    "description": "Graphchart to show different rates"
+                },
+                "top-creator": {
+                    "count": 1,
+                    "location": "below chart-two of the Rightsidebar",
+                    "description": "list of all top users"
+                },
+                "top-platform": {
+                    "count": 1,
+                    "location": "bottom of the RightSideBar",
+                    "description": "list of all top platforms"
+                }
+            }
+        },
+        "Hero": {
+            "count": 1,
+            "location": "Top of the main content page taking full width",
+            "description": "UI component with state management, notifications, and countdown functionality."
+        },
+        "CreateNft": {
+            "count": 1,
+            "location": "below hero component taking full width of the main content page",
+            "description": "Includes messaging on buying and selling NFTs from top artists, with buttons for uploading products and viewing artwork."
+        },
+        "TrendingSection": {
+            "count": 1,
+            "location": "below createnft component taking full width of the main content page",
+            "description": "Component for displaying products with a stylish card layout, incorporating icons, and a slider functionality.",
+            "children": {
+                "ProductCardStyleOne": {
+                  "count": 8,
+                  "location": "In the trendingsection container",
+                  "description": "Dynamic product carousel showcasing trending items with slider functionality."
+                }
+            }    
+        },
+        "SellHistoryWidget": {
+            "count": 1,
+            "location": "Mid top left taking 50% width of the main content page",
+            "description": "Component displaying sell history analytics with average sell price and total sell. Includes a chart visualizing the data."
+        },
+        "market-visitor": {
+            "count": 1,
+            "location": "Mid top right taking 50% width of the main content page",
+            "description": "Displays market visitor analytics with selectable data filters."
+        },
+        "top-seller": {
+            "count": 1,
+            "location": "Mid below SellHistoryWidget in left taking 50% width of the main content page",
+            "description": "Slider section featuring top sellers",
+            "children": {
+                "seller-item": {
+                  "count": 5,
+                  "location": "In the top-seller container",
+                  "description": "Seller item display with profile image, username, and item count."
+                }
+            }    
+        },
+        "top-buyer": {
+            "count": 1,
+            "location": "Mid below market-visitor in right taking 50% width of the main content page",
+            "description": "Slider section featuring top buyer",
+            "children": {
+                "buyer-item": {
+                  "count": 5,
+                  "location": "In the top-buyer container",
+                  "description": "Buyer item display with profile image, username, and item count."
+                }
+            } 
+        },
+        "UpdateTable": {
+            "count": 1,
+            "location": "Bottom of the main content page taking full width",
+            "description": "Table for displaying NFT updates with filter options."
+        }
+    },
+    "functionality":
+    {
+        "sidebar_toogle": "a feature that allows the sidebar to be hide",
+        "carousel": "A feature that enables the display of a rotating set of images or content in a slideshow format."
+    }
+}

@@ -1,8 +1,5 @@
 import React, { useRef } from "react";
 import top from "../../assets/images/top-buyer-1png.png";
-import top2 from "../../assets/images/top-buyer-2.png";
-import top3 from "../../assets/images/top-buyer-3.png";
-import top4 from "../../assets/images/top-buyer-4.png";
 import Icons from "../../components/helpers/Icons";
 import SliderCom from "../../components/helpers/SliderCom";
 
@@ -47,7 +44,7 @@ export default function TopSellerTopBuyerSliderSection({ className }) {
       <div className={`top-seller-top-buyer-wrapper ${className || ""}`}>
         <div className="top-seller-top-buyer-wrapper-container">
           <div className="main-wrapper w-full lg:flex xl:space-x-8 lg:space-x-4">
-            <div className="lg:w-1/2 w-full mb-10 lg:mb-0 sm:p-8 p-4 bg-white dark:bg-dark-white   rounded-2xl section-shadow">
+            <div className="top-seller lg:w-1/2 w-full mb-10 lg:mb-0 sm:p-8 p-4 bg-white dark:bg-dark-white   rounded-2xl section-shadow">
               <div className="heading flex justify-between items-center mb-4">
                 <h1 className="text-xl font-bold text-dark-gray dark:text-white tracking-wide">
                   Top Seller
@@ -101,7 +98,7 @@ export default function TopSellerTopBuyerSliderSection({ className }) {
               </div>
               <div className="slider-content">
                 <SliderCom settings={settings} selector={sellSlider}>
-                  <div className="item">
+                  <div className="seller-item item">
                     {/* img */}
                     <div className="flex justify-center mb-4">
                       <div className=" w-14 h-14 relative">
@@ -160,11 +157,11 @@ export default function TopSellerTopBuyerSliderSection({ className }) {
                       </div>
                     </div>
                   </div>
-                  <div className="item">
+                  <div className="seller-item item">
                     {/* img */}
                     <div className="flex justify-center mb-4">
                       <div className=" w-14 h-14 relative">
-                        <img src={top2} alt="top" className="w-full h-full" />
+                        <img src={top} alt="top" className="w-full h-full" />
                         <div className="absolute right-0 top-0">
                           <svg
                             width="18"
@@ -219,11 +216,11 @@ export default function TopSellerTopBuyerSliderSection({ className }) {
                       </div>
                     </div>
                   </div>
-                  <div className="item">
+                  <div className="seller-item item">
                     {/* img */}
                     <div className="flex justify-center mb-4">
                       <div className=" w-14 h-14 relative">
-                        <img src={top3} alt="top" className="w-full h-full" />
+                        <img src={top} alt="top" className="w-full h-full" />
                         <div className="absolute right-0 top-0">
                           <svg
                             width="18"
@@ -278,11 +275,11 @@ export default function TopSellerTopBuyerSliderSection({ className }) {
                       </div>
                     </div>
                   </div>
-                  <div className="item">
+                  <div className="seller-item item">
                     {/* img */}
                     <div className="flex justify-center mb-4">
                       <div className=" w-14 h-14 relative">
-                        <img src={top4} alt="top" className="w-full h-full" />
+                        <img src={top} alt="top" className="w-full h-full" />
                         <div className="absolute right-0 top-0">
                           <svg
                             width="18"
@@ -337,11 +334,11 @@ export default function TopSellerTopBuyerSliderSection({ className }) {
                       </div>
                     </div>
                   </div>
-                  <div className="item">
+                  <div className="seller-item item">
                     {/* img */}
                     <div className="flex justify-center mb-4">
                       <div className=" w-14 h-14 relative">
-                        <img src={top3} alt="top" className="w-full h-full" />
+                        <img src={top} alt="top" className="w-full h-full" />
                         <div className="absolute right-0 top-0">
                           <svg
                             width="18"
@@ -399,7 +396,7 @@ export default function TopSellerTopBuyerSliderSection({ className }) {
                 </SliderCom>
               </div>
             </div>
-            <div className="flex-1 sm:p-8 p-4 bg-white dark:bg-dark-white   rounded-2xl section-shadow">
+            <div className="top-buyer flex-1 sm:p-8 p-4 bg-white dark:bg-dark-white   rounded-2xl section-shadow">
               <div className="heading flex justify-between items-center mb-4">
                 <h1 className="text-xl font-bold text-dark-gray dark:text-white tracking-wide">
                   Top Buyer
@@ -453,7 +450,7 @@ export default function TopSellerTopBuyerSliderSection({ className }) {
               </div>
               <div className="slider-content">
                 <SliderCom settings={settings} selector={buySlider}>
-                  <div className="item">
+                  <div className="buyer-item item">
                     {/* img */}
                     <div className="flex justify-center mb-4">
                       <div className=" w-14 h-14 relative">
@@ -519,11 +516,11 @@ export default function TopSellerTopBuyerSliderSection({ className }) {
                       </div>
                     </div>
                   </div>
-                  <div className="item">
+                  <div className="buyer-item item">
                     {/* img */}
                     <div className="flex justify-center mb-4">
                       <div className=" w-14 h-14 relative">
-                        <img src={top2} alt="top" className="w-full h-full" />
+                        <img src={top} alt="top" className="w-full h-full" />
                         <div className="absolute right-0 top-0">
                           <svg
                             width="18"
@@ -585,11 +582,11 @@ export default function TopSellerTopBuyerSliderSection({ className }) {
                       </div>
                     </div>
                   </div>
-                  <div className="item">
+                  <div className="buyer-item item">
                     {/* img */}
                     <div className="flex justify-center mb-4">
                       <div className=" w-14 h-14 relative">
-                        <img src={top3} alt="top" className="w-full h-full" />
+                        <img src={top} alt="top" className="w-full h-full" />
                         <div className="absolute right-0 top-0">
                           <svg
                             width="18"
@@ -651,11 +648,11 @@ export default function TopSellerTopBuyerSliderSection({ className }) {
                       </div>
                     </div>
                   </div>
-                  <div className="item">
+                  <div className="buyer-item item">
                     {/* img */}
                     <div className="flex justify-center mb-4">
                       <div className=" w-14 h-14 relative">
-                        <img src={top4} alt="top" className="w-full h-full" />
+                        <img src={top} alt="top" className="w-full h-full" />
                         <div className="absolute right-0 top-0">
                           <svg
                             width="18"
@@ -717,11 +714,11 @@ export default function TopSellerTopBuyerSliderSection({ className }) {
                       </div>
                     </div>
                   </div>
-                  <div className="item">
+                  <div className="buyer-item item">
                     {/* img */}
                     <div className="flex justify-center mb-4">
                       <div className=" w-14 h-14 relative">
-                        <img src={top3} alt="top" className="w-full h-full" />
+                        <img src={top} alt="top" className="w-full h-full" />
                         <div className="absolute right-0 top-0">
                           <svg
                             width="18"
