@@ -1,8 +1,5 @@
 import React from "react";
 import bank1 from "../../assets/images/bank-1.png";
-import bank2 from "../../assets/images/bank-2.png";
-import bank3 from "../../assets/images/bank-3.png";
-import bank4 from "../../assets/images/bank-4.png";
 import CurrencyStaticsSection from "./CurrencyStaticsSection";
 import CurrentBalanceWidget from "./CurrentBalanceWidget";
 import InvestmentSection from "./InvestmentSection";
@@ -25,7 +22,7 @@ export default function MyWallet() {
                     </h1>
                   </div>
                   <div className="content-area">
-                    <div className="flex justify-between items-center mb-6">
+                    <div className="wallet-card flex justify-between items-center mb-6">
                       <div className="flex space-x-5 items-center">
                         <div className="account-name flex space-x-4 items-center">
                           <div className="icon w-14 h-14 transition duration-300 ease-in-out rounded-full flex justify-center items-center bg-light-purple dark:bg-dark-light-purple ">
@@ -78,11 +75,11 @@ export default function MyWallet() {
                         </div>
                       </div>
                     </div>
-                    <div className="flex justify-between items-center mb-6">
+                    <div className="wallet-card flex justify-between items-center mb-6">
                       <div className="flex space-x-5 items-center">
                         <div className="account-name flex space-x-4 items-center">
                           <div className="icon w-14 h-14 transition duration-300 ease-in-out rounded-full flex justify-center items-center bg-light-purple dark:bg-dark-light-purple ">
-                            <img src={bank2} alt="" />
+                            <img src={bank1} alt="" />
                           </div>
                           <div className="name">
                             <p className="text-xl font-bold text-dark-gray dark:text-white tracking-wide">
@@ -131,11 +128,11 @@ export default function MyWallet() {
                         </div>
                       </div>
                     </div>
-                    <div className="flex justify-between items-center mb-6">
+                    <div className="wallet-card flex justify-between items-center mb-6">
                       <div className="flex space-x-5 items-center">
                         <div className="account-name flex space-x-4 items-center">
                           <div className="icon w-14 h-14 transition duration-300 ease-in-out rounded-full flex justify-center items-center bg-light-purple dark:bg-dark-light-purple ">
-                            <img src={bank3} alt="" />
+                            <img src={bank1} alt="" />
                           </div>
                           <div className="name">
                             <p className="text-xl font-bold text-dark-gray dark:text-white tracking-wide">
@@ -184,11 +181,11 @@ export default function MyWallet() {
                         </div>
                       </div>
                     </div>
-                    <div className="flex justify-between items-center mb-6">
+                    <div className="wallet-card flex justify-between items-center mb-6">
                       <div className="flex space-x-5 items-center">
                         <div className="account-name flex space-x-4 items-center">
                           <div className="icon w-14 h-14 transition duration-300 ease-in-out rounded-full flex justify-center items-center bg-light-purple dark:bg-dark-light-purple ">
-                            <img src={bank4} alt="" />
+                            <img src={bank1} alt="" />
                           </div>
                           <div className="name">
                             <p className="text-xl font-bold text-dark-gray dark:text-white tracking-wide">

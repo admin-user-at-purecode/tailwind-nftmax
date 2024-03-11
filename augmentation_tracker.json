@@ -1,0 +1,99 @@
+{
+    "theme_augmentations": {
+        "color": "red",
+        "font": "Arial",
+        "size": "12px",
+        "background": "white",
+        "border": "1px solid black",
+        "radius": "5px",
+        "shadow": "2px 2px 2px 2px #888888"
+    },  
+    "component_names":
+    [
+        "Header",
+        "Sidebar",
+        "RightSideBar",
+        "CurrentBalanceWidget",
+        "my-wallets",
+        "CurrencyStaticsSection",
+        "RecentTransactionWidget",
+        "InvestmentSection",
+        "wallet-card"
+    ],
+    "component_counts":   
+    {
+        "Header" : {
+            "count": 1,
+            "location": "Top of the page",
+            "description": "Searchbar, Darkmode, Wallet, Noticification and profile"
+        },               
+        "Sidebar" : {
+            "count": 1,
+            "location": "left of the page",
+            "description": "Title and List items in the conatiner"
+        },        
+        "RightSideBar": {
+            "count": 1,
+            "location": "right of the page",
+            "description": "charts, top-creator and top-platform",
+            "children": {
+                "chart-one": {
+                  "count": 1,
+                  "location": "top of the RightSideBar",
+                  "description": "it is doghnut chart showing stattistics"
+                },
+                "chart-two": {
+                    "count": 1,
+                    "location": "below chart-one of the RightSideBar",
+                    "description": "Graphchart to show different rates"
+                },
+                "top-creator": {
+                    "count": 1,
+                    "location": "below chart-two of the Rightsidebar",
+                    "description": "list of all top users"
+                },
+                "top-platform": {
+                    "count": 1,
+                    "location": "bottom of the RightSideBar",
+                    "description": "list of all top platforms"
+                }
+            }
+        },
+        "CurrentBalanceWidget" : {
+            "count": 1,
+            "location": "top of the main section in left, taking 50% of full width",
+            "description": "Displays current balance and cryptocurrency wallet information with graphical representation."
+        },
+        "my-wallets" : {
+            "count": 1,
+            "location": "top of the main section in right, taking 50% of full width",
+            "description": "This component displays a list of wallets with their respective balances and recent activity.",
+            "childern": {
+                "wallet-card":{
+                    "count": 4,
+                    "location": "In the my-wallet component aligned in coloumn",
+                    "description": "It provides a visual representation of wallet names, icons, current balances, and recent transactions."
+                }
+            }
+        },
+        "CurrencyStaticsSection" : {
+            "count": 1,
+            "location": "mid section of main content page taking 100% width",
+            "description": "Title and List items in the conatiner"
+        },
+        "RecentTransactionWidget" : {
+            "count": 1,
+            "location": "bottom of the main section in left, taking 50% of full width",
+            "description": "Title and List items in the conatiner"
+        },
+        "InvestmentSection" : {
+            "count": 1,
+            "location": "bottom of the main section in right, taking 50% of full width",
+            "description": "Title and List items in the conatiner"
+        }
+    },
+    "functionality":
+    {
+        "sidebar_toogle": "a feature that allows the sidebar to be hide"
+    }
+}

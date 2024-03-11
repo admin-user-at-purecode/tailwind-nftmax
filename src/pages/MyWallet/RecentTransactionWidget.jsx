@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import transaction1 from "../../assets/images/recent-transation-1.png";
-import transaction2 from "../../assets/images/recent-transation-2.png";
-import transaction3 from "../../assets/images/recent-transation-3.png";
 
 export default function RecentTransactionWidget() {
   const transationFilterData = [
@@ -97,7 +95,7 @@ export default function RecentTransactionWidget() {
               <div className="flex justify-between items-center">
                 <div className="account-name flex space-x-4 items-center">
                   <div className="icon w-14 h-14 flex justify-center items-center">
-                    <img src={transaction2} alt="" className="" />
+                    <img src={transaction1} alt="" className="" />
                   </div>
                   <div>
                     <div className="name">
@@ -126,7 +124,7 @@ export default function RecentTransactionWidget() {
               <div className="flex justify-between items-center">
                 <div className="account-name flex space-x-4 items-center">
                   <div className="icon w-14 h-14 flex justify-center items-center">
-                    <img src={transaction3} alt="" className="" />
+                    <img src={transaction1} alt="" className="" />
                   </div>
                   <div>
                     <div className="name">
@@ -189,7 +187,7 @@ export default function RecentTransactionWidget() {
               <div className="flex justify-between items-center">
                 <div className="account-name flex space-x-4 items-center">
                   <div className="icon w-14 h-14 flex justify-center items-center">
-                    <img src={transaction2} alt="" className="" />
+                    <img src={transaction1} alt="" className="" />
                   </div>
                   <div>
                     <div className="name">
@@ -252,7 +250,7 @@ export default function RecentTransactionWidget() {
               <div className="flex justify-between items-center">
                 <div className="account-name flex space-x-4 items-center">
                   <div className="icon w-14 h-14 flex justify-center items-center">
-                    <img src={transaction2} alt="" className="" />
+                    <img src={transaction1} alt="" className="" />
                   </div>
                   <div>
                     <div className="name">
@@ -281,7 +279,7 @@ export default function RecentTransactionWidget() {
               <div className="flex justify-between items-center">
                 <div className="account-name flex space-x-4 items-center">
                   <div className="icon w-14 h-14 flex justify-center items-center">
-                    <img src={transaction3} alt="" className="" />
+                    <img src={transaction1} alt="" className="" />
                   </div>
                   <div>
                     <div className="name">

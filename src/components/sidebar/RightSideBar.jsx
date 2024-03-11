@@ -1,9 +1,5 @@
 import React, { useState } from "react";
 import topCreator1 from "../../assets/images/top-creator-1.png";
-import topCreator2 from "../../assets/images/top-creator-2.png";
-import topCreator3 from "../../assets/images/top-creator-3.png";
-import topCreator4 from "../../assets/images/top-creator-4.png";
-import topCreator5 from "../../assets/images/top-creator-5.png";
 import DoughnutChart from "../charts/DoughnutChart";
 import MiniLineChart from "../charts/MiniLineChart";
 import Icons from "../helpers/Icons";
@@ -326,7 +322,7 @@ export default function RightSideBar() {
             <div className="item flex justify-between items-center mb-4">
               {/* image */}
               <div className="w-10 h-10 rounded-full">
-                <img src={topCreator2} alt="top" />
+                <img src={topCreator1} alt="top" />
               </div>
               {/* name */}
               <div>
@@ -354,7 +350,7 @@ export default function RightSideBar() {
             <div className="item flex justify-between items-center mb-4">
               {/* image */}
               <div className="w-10 h-10 rounded-full">
-                <img src={topCreator3} alt="top" />
+                <img src={topCreator1} alt="top" />
               </div>
               {/* name */}
               <div>
@@ -382,7 +378,7 @@ export default function RightSideBar() {
             <div className="item flex justify-between items-center mb-4">
               {/* image */}
               <div className="w-10 h-10 rounded-full">
-                <img src={topCreator4} alt="top" />
+                <img src={topCreator1} alt="top" />
               </div>
               {/* name */}
               <div>
@@ -410,7 +406,7 @@ export default function RightSideBar() {
             <div className="item flex justify-between items-center mb-4">
               {/* image */}
               <div className="w-10 h-10 rounded-full">
-                <img src={topCreator5} alt="top" />
+                <img src={topCreator1} alt="top" />
               </div>
               {/* name */}
               <div>
