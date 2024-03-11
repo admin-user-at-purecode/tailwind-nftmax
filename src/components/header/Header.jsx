@@ -1,8 +1,5 @@
 import React, { useContext } from "react";
 import bank1 from "../../assets/images/bank-1.png";
-import bank2 from "../../assets/images/bank-2.png";
-import bank3 from "../../assets/images/bank-3.png";
-import bank4 from "../../assets/images/bank-4.png";
 import profileImg from "../../assets/images/profile-pic.jpg";
 import useToggle from "../../hooks/useToggle";
 import DarkModeContext from "../Contexts/DarkModeContext";
@@ -238,7 +235,7 @@ export default function Header({ sidebarHandler }) {
                       <div className="sm:flex justify-between items-center">
                         <div className="account-name flex space-x-4 items-center mb-2 sm:mb-0">
                           <div className="icon w-14 h-14 transition duration-300 ease-in-out rounded-full flex justify-center items-center bg-light-purple dark:bg-dark-light-purple ">
-                            <img src={bank2} alt="" />
+                            <img src={bank1} alt="" />
                           </div>
                           <div className="name">
                             <p className="text-base text-dark-gray dark:text-white font-medium">
@@ -260,7 +257,7 @@ export default function Header({ sidebarHandler }) {
                       <div className="sm:flex justify-between items-center">
                         <div className="account-name flex space-x-4 items-center mb-2 sm:mb-0">
                           <div className="icon w-14 h-14 transition duration-300 ease-in-out rounded-full flex justify-center items-center bg-light-purple dark:bg-dark-light-purple ">
-                            <img src={bank3} alt="" />
+                            <img src={bank1} alt="" />
                           </div>
                           <div className="name">
                             <p className="text-base text-dark-gray dark:text-white font-medium">
@@ -282,7 +279,7 @@ export default function Header({ sidebarHandler }) {
                       <div className="sm:flex justify-between items-center">
                         <div className="account-name flex space-x-4 items-center mb-2 sm:mb-0">
                           <div className="icon w-14 h-14 transition duration-300 ease-in-out rounded-full flex justify-center items-center bg-light-purple dark:bg-dark-light-purple ">
-                            <img src={bank4} alt="" />
+                            <img src={bank1} alt="" />
                           </div>
                           <div className="name">
                             <p className="text-base text-dark-gray dark:text-white font-medium">
