@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 import dataImage1 from "../../assets/images/data-table-user-1.png";
-import dataImage2 from "../../assets/images/data-table-user-2.png";
-import dataImage3 from "../../assets/images/data-table-user-3.png";
-import dataImage4 from "../../assets/images/data-table-user-4.png";
 import SelectBox from "../../components/helpers/SelectBox";
 
 export default function UpdateTable({ className }) {
@@ -179,7 +176,7 @@ export default function UpdateTable({ className }) {
                     <div className="flex space-x-2 items-center">
                       <div className="w-[60px] h-[60px] rounded-full overflow-hidden flex justify-center items-center">
                         <img
-                          src={dataImage2}
+                          src={dataImage1}
                           alt="data"
                           className="w-full h-full"
                         />
@@ -305,7 +302,7 @@ export default function UpdateTable({ className }) {
                     <div className="flex space-x-2 items-center">
                       <div className="w-[60px] h-[60px] rounded-full overflow-hidden flex justify-center items-center">
                         <img
-                          src={dataImage3}
+                          src={dataImage1}
                           alt="data"
                           className="w-full h-full"
                         />
@@ -431,7 +428,7 @@ export default function UpdateTable({ className }) {
                     <div className="flex space-x-2 items-center">
                       <div className="w-[60px] h-[60px] rounded-full overflow-hidden flex justify-center items-center">
                         <img
-                          src={dataImage4}
+                          src={dataImage1}
                           alt="data"
                           className="w-full h-full"
                         />
@@ -560,7 +557,7 @@ export default function UpdateTable({ className }) {
                     <div className="flex space-x-2 items-center">
                       <div className="w-[60px] h-[60px] rounded-full overflow-hidden flex justify-center items-center">
                         <img
-                          src={dataImage3}
+                          src={dataImage1}
                           alt="data"
                           className="w-full h-full"
                         />
@@ -686,7 +683,7 @@ export default function UpdateTable({ className }) {
                     <div className="flex space-x-2 items-center">
                       <div className="w-[60px] h-[60px] rounded-full overflow-hidden flex justify-center items-center">
                         <img
-                          src={dataImage4}
+                          src={dataImage1}
                           alt="data"
                           className="w-full h-full"
                         />
@@ -814,7 +811,7 @@ export default function UpdateTable({ className }) {
                   <div className="flex space-x-2 items-center">
                     <div className="w-[60px] h-[60px] rounded-full overflow-hidden flex justify-center items-center">
                       <img
-                        src={dataImage3}
+                        src={dataImage1}
                         alt="data"
                         className="w-full h-full"
                       />

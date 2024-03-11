@@ -10,7 +10,7 @@ export default function AllBidsSection({ className, allBids = [] }) {
           <h1 className="text-26 font-bold   text-dark-gray dark:text-white">All Bids</h1>
         </div>
         <div className="w-full">
-          <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 2xl:gap-8 xl:gap-5 gap-5 mb-10">
+          <div className="allbids-card grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 2xl:gap-8 xl:gap-5 gap-5 mb-10">
             <DataIteration datas={allBids} startLength={0} endLength={8}>
               {({ datas }) => (
                 <div key={datas.id} className="item">
